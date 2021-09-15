@@ -27,11 +27,11 @@ We seek to analyze the metabolite contrasts between subjects of status P and Q, 
   - This quant_table dataset is required for comparison to ensure quality control of the dataset to be used.
 
 ## R Scripts to Run 💻
-1. 20210827 GIN Prelim Analysis 4.R
+1. 20210827 Glycemic-Prelim Analysis 4.R
   - This script will take the 2 inputs files above and perform the necessary statistical analyses and plotting with the help of the the utility functions in the scrip tbelow.
 2. R_UtilityScripts_Malcolm.R
   - A script containing functions that are customized towards manipulating the data structure of the quant_table outputs of MRMkit and the data output by the Agilent software.
-  - *Run this script first* to load the necessary functions before going through the script named "20210827 GIN Prelim Analysis 4.R".
+  - *Run this script first* to load the necessary functions before going through the script named "20210827 Glycemic-Prelim Analysis 4.R".
 
 # Procedure/Steps
 Run Script 2, then run Script 1.
