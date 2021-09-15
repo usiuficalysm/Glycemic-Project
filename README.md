@@ -1,7 +1,7 @@
 # Glycemic-Project 🍚
 A project on Glycemic Index that I have worked on involving bioinformatics.
 
-# Procedure/Steps
+## Procedure/Steps
 Run "R_UtilityScripts_Malcolm.R", then run "20210827 Glycemic-Prelim Analysis 4.R".
 - Statistical test results and plots will be produced. More detailed explanation of each set of plots or data are in the respective folders.
 
