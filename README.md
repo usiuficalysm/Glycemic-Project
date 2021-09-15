@@ -33,4 +33,6 @@ We seek to analyze the metabolite contrasts between subjects of status P and Q, 
   - A script containing functions that are customized towards manipulating the data structure of the quant_table outputs of MRMkit and the data output by the Agilent software.
   - *Run this script first* to load the necessary functions before going through the script named "20210827 GIN Prelim Analysis 4.R".
 
-Upon running scripts 2, then 1, statistical test results and plots will be produced. More detailed explanation of each set of plots or data are in the respective folders.
+# Procedure/Steps
+Run Script 2, then run Script 1.
+- Statistical test results and plots will be produced. More detailed explanation of each set of plots or data are in the respective folders.
