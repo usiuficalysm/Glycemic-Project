@@ -1,6 +1,10 @@
 # Glycemic-Project 🍚
 A project on Glycemic Index that I have worked on involving bioinformatics.
 
+# Procedure/Steps
+Run "R_UtilityScripts_Malcolm.R", then run "20210827 Glycemic-Prelim Analysis 4.R".
+- Statistical test results and plots will be produced. More detailed explanation of each set of plots or data are in the respective folders.
+
 ## About the Data 💡
 The data I have been using had been obtained from blood samples acquired from subjects involved in a randomized controlled trial (RCT) test by Dr Sumanto Haldar and his team. The analysis is a follow-up from the following study:
 - [High or low glycemic index (GI) meals at dinner results in greater postprandial glycemia compared with breakfast: a randomized controlled trial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7202752/)
@@ -26,13 +30,10 @@ We seek to analyze the metabolite contrasts between subjects of status P and Q, 
   - Should we omit the column correction factor in the MRMkit run, the data here will contain column variance, which may skew the analysis.
   - This quant_table dataset is required for comparison to ensure quality control of the dataset to be used.
 
-## R Scripts to Run 💻
+## R Scripts 💻
 1. 20210827 Glycemic-Prelim Analysis 4.R
   - This script will take the 2 inputs files above and perform the necessary statistical analyses and plotting with the help of the the utility functions in the scrip tbelow.
 2. R_UtilityScripts_Malcolm.R
   - A script containing functions that are customized towards manipulating the data structure of the quant_table outputs of MRMkit and the data output by the Agilent software.
   - *Run this script first* to load the necessary functions before going through the script named "20210827 Glycemic-Prelim Analysis 4.R".
 
-# Procedure/Steps
-Run Script 2, then run Script 1.
-- Statistical test results and plots will be produced. More detailed explanation of each set of plots or data are in the respective folders.
